@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    font-family: Karla;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    
+}
+
+#maindiv{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 1000px;
+    margin-top: 125px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:5px 5px transparent;
+}
+
+
+.texxt{
+    padding-left: 50px;
+    /* line-height: 20px; */
+}
+
+#para1{
+    width: 100%;
+    line-height: 20px;
+}
+
+#Upperdiv{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+}
+
+
+#secondDiv{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#leftDiv{
+    padding-left: 20px;
+    color: white;
+    width: 50%;
+    background-color: #4ABEBD;
+   
+}
+
+#rightDiv{
+    width: 50%;
+    background-color: cyan;
+    text-align: left;
+    padding-left: 20px;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    background-color: #BDDA30;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
