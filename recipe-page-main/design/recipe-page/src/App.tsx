@@ -6,7 +6,7 @@ function App() {
     <>
       <div className='mainDiv'>
         <div className='secDiv'>
-          <img src='src/assets/images/image-omelette.jpeg'></img>
+          <img src='../src/assets/images/image-omelette.jpeg'></img>
           <h1 className='mainHeading'>Simple Omelette Recipe</h1>
           <p className='para'>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
           to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
