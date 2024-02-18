@@ -1,8 +1,10 @@
-@import url(https://fonts.google.com/specimen/Young+Serif);
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 img{
   height: 300px;
   width: 600px;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -16,6 +18,10 @@ div.mainDiv{
   margin-right: 400px;
   margin-top: 150px; 
   border-radius: 10px; 
+}
+
+.mainHeading{
+  font-family: 'Young Serif',serif;
 }
 
 div.secDiv{
@@ -49,9 +55,65 @@ ul.secondList{
 
 .allHeads{
   color:hsl(14, 45%, 36%) ;
+  font-family:'Young Serif',serif;
+}
+
+ol{
+  color:hsl(14, 45%, 36%) ;
+  padding-left: 20px;
 }
 
 
+.heading1{
+  color:  hsl(24, 5%, 18%); 
+  font-family: 'Outfit',sans-serif;
+  font-weight: bold;
+}
+
+.para,li{
+  color:  hsl(30, 10%, 34%); 
+}
+
+.rows,.rowFat{
+  padding-left: 25px;
+}
+
+table{
+  
+  border-collapse: collapse;
+  width: 100%; 
+}
+
+.row2{
+  color: hsl(14, 45%, 36%);
+  padding-left: 250px;
+  font-family: "Outfit",sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px;
+  text-align: left;
+}
+
+.instList{
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
 
 
+.mainRow{
+  border-bottom: 2px solid black;
+}
 
+@media screen and (max-width: 1032px) {
+  div.mainDiv {
+    margin: 50px auto;
+    padding: 10px; 
+  } 
+}
+
+@media screen and (max-width: 576px) {
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
