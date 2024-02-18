@@ -22,7 +22,7 @@ function App() {
               </ul>
           </div>
           <div>
-            <h2>Ingredients</h2>
+            <h2 className='allHeads'>Ingredients</h2>
               <ul className='secondList'>
                 <li>2-3 large eggs</li>
                 <li>Salt, to taste</li>
@@ -33,7 +33,7 @@ function App() {
             <hr></hr>
           </div>
           <div>
-            <h2>Instructions</h2>
+            <h2 className='allHeads'>Instructions</h2>
             <ol>
               <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
                 You can add a tablespoon of water or milk for a fluffier texture.</li>
@@ -53,7 +53,7 @@ function App() {
             </ol>
           </div>
           <div>
-            <h2>Nutrition</h2>
+            <h2 className='allHeads'>Nutrition</h2>
             <p>The table below shows nutritional values per serving without the additional fillings.</p>
             <table>
               <tr>         

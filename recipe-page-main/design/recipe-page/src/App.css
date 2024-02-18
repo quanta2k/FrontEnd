@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Young+Serif);
+
 img{
   height: 300px;
   width: 600px;
@@ -30,6 +32,7 @@ div.pinkDiv{
 
 h3.pinkHead{
   color:hsl(332, 51%, 32%);
+  font-family:'Young Serif',serif;
   padding-top: 20px;
   padding-left: 20px;
 }
@@ -42,6 +45,10 @@ ul.firstList{
 ul.secondList{
   line-height: 30px;
   padding-left: 20px;
+}
+
+.allHeads{
+  color:hsl(14, 45%, 36%) ;
 }
 
 
